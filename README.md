@@ -19,14 +19,13 @@ To install the all used libraries, you can just run the following command:
     # Windows
     pip install -r requirements.txt
 ```
-    
+Replace all value with a comment next to it. This will include your discord bot token and OpenAPI Api key.
+This uses Medal's public API key so u can still use it as rate limits are done per IP address.    
 
 
 
 Command List
 --------------
-Replace all value with a comment next to it. This will include your discord bot token and OpenAPI Api key.
-This uses Medal's public API key so u can still use it as rate limits are done per IP address.
 
 ```python
     help # sends list of commands
