@@ -26,7 +26,7 @@ def handle_responses(message,username_nick,username,nick_change) -> str:
     if "yas" in p_message:
         return "SLAYYYYY"
     if p_message.startswith("github") or p_message.startswith("git"):
-        return "https://github.com/karankantaria"
+        return "https://github.com/karankantaria/GPT-discord-bot"
     if p_message.startswith("chat"):
         p_message=p_message.replace("chat","")
         response = openai.Completion.create(model="text-davinci-003", prompt = p_message, max_tokens=300,temperature = 0)
